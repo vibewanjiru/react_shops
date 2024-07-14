@@ -1,0 +1,34 @@
+.shop-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .shop-card {
+    display: block;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s;
+  }
+  
+  .shop-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .shop-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .shop-title {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  

@@ -1,0 +1,44 @@
+/* App.css */
+.app {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.side-nav {
+  width: 200px;
+  background-color: #f4f4f4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.main-content {
+  margin-left: 220px; 
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-bar {
+  position: fixed;
+  top: 0;
+  left: 200px; /* Width of SideNav */
+  right: 0;
+  height: 64px;
+  z-index: 1100;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  margin-top: 64px; /* Height of AppBar */
+  padding: 20px;
+  overflow-y: auto;
+  height: calc(100vh - 64px);
+}

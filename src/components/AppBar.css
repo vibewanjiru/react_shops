@@ -1,0 +1,39 @@
+/* AppBar.css */
+.app-bar  {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .app-logo {
+    flex-grow: 1;
+  }
+  
+  .app-search {
+    position: relative;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-left: 0;
+    width: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .app-search .MuiInputBase-root {
+    color: inherit;
+  }
+  
+  .app-search .MuiInputBase-input {
+    padding: 8px;
+    transition: width 300ms;
+    width: 120px;
+  }
+  
+  .app-search:hover .MuiInputBase-input {
+    width: 200px;
+  }
+  
+  .app-user {
+    margin-left: 20px;
+  }
+  
